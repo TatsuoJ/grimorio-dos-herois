@@ -1,30 +1,51 @@
 
-# 🏰 Grimório dos HeróisSistema de gerenciamento de personagens RPG com tema medieval dark.
-## 🚀 Tecnologias- React.js- Node.js + Express- SQLite## 
+# 🏰 Grimório dos Heróis
+Sistema de gerenciamento de personagens RPG com tema medieval dark desenvolvido em React, Node.js e SQLite.
 
-📋 Funcionalidades- Criar personagens com nome, classe, raça, nível e história- Listar todos os personagens em cards estilizados- Editar informações dos personagens- Remover personagens- Buscar por nome, classe ou raça- Interface medieval com animações de tochas e efeitos mágicos## 
+## 📖 Sobre
+Aplicação web para criar, editar, visualizar e gerenciar personagens de RPG com interface medieval imersiva, incluindo animações de tochas, efeitos mágicos e design premium.
 
-📦 Instalação### Pré-requisitos- Node.js (versão 14 ou superior)- npm### Instalar
+## ⚡ Tecnologias
+- **Frontend:** React.js 18, CSS3
+- **Backend:** Node.js, Express.js
+- **Banco de Dados:** SQLite3
 
-dependências# Backendcd backendnpm install# Frontendcd ../frontendnpm install## 
+## 🎯 Funcionalidades
+- ✅ Criar personagens (nome, classe, raça, nível, história)
+- ✅ Listar personagens em cards estilizados
+- ✅ Editar informações dos personagens
+- ✅ Remover personagens com confirmação
+- ✅ Buscar por nome, classe ou raça
+- ✅ Interface medieval com animações (tochas, ritual mágico, névoa)
+- ✅ 12 classes e 12 raças disponíveis
 
-🎮 Como usar### 
-
-1. Iniciar o backendcd backendnode index.jsO servidor vai rodar em `http://localhost:3000`###
-2. Iniciar o frontend (em outro terminal)cd frontendnpm startA aplicação vai abrir em `http://localhost:3001`## 
-
-🎮 Como usar
-1. Iniciar o backend
-cd backendnode index.jsisponíveis**Classes:** Guerreiro, Mago, Arqueiro, Ladino, Paladino, Necromante, Bárbaro, Clérigo, Druida, Bardo, Monge, Feiticeiro**Raças:** Humano, Elfo, Anão, Orc, Meio-Elfo, Halfling, Tiefling, Drow, Gnomo, Draconato, Meio-Orc, Goblin## 📝 LicençaMIT
-O servidor vai rodar em http://localhost:3000
-2. Iniciar o frontend (em outro terminal)
-cd frontendnpm start
-A aplicação vai abrir em http://localhost:3001
-
-📁 Estrutura
-grimorio-dos-herois/├── backend/│   ├── index.js          # Servidor e API│   └── package.json└── frontend/    ├── src/    │   ├── App.jsx       # Componente principal    │   └── App.css       # Estilos    └── package.json
+## 📋 Pré-requisitos
+- [Node.js](https://nodejs.org/) (versão 14+)
+- npm (instalado com Node.js)
 
 
-🎯 Classes e Raças Disponíveis
-Classes: Guerreiro, Mago, Arqueiro, Ladino, Paladino, Necromante, Bárbaro, Clérigo, Druida, Bardo, Monge, Feiticeiro
-Raças: Humano, Elfo, Anão, Orc, Meio-Elfo, Halfling, Tiefling, Drow, Gnomo, Draconato, Meio-Orc, Goblin
+## 🚀 Instalação e Execução### 
+1. Clone ou extraia o projetocd grimorio-dos-herois
+
+2. Instale as dependências
+   **Backend:**cd backendnpm install*
+   *Frontend:**cd ../frontendnpm install
+3. Execute a aplicação
+   **Terminal 1 - Backend:**cd backendnode index.js> Servidor rodando em http://localhost:3000
+   **Terminal 2 - Frontend:**cd frontendnpm start> Aplicação abrindo em http://localhost:3001
+
+4. Acesse no navegadorAbra: **http://localhost:3001**
+
+🎮 Como Usar
+Criar personagem: Preencha o formulário e clique em "Registrar Personagem"
+Buscar: Digite no campo de busca na seção "Taverna dos Heróis"
+Editar: Clique no botão "Editar" no card do personagem
+Remover: Clique no botão "Remover" e confirme a ação
+
+
+🎨 Classes e Raças
+Classes (12):
+Guerreiro, Mago, Arqueiro, Ladino, Paladino, Necromante, Bárbaro, Clérigo, Druida, Bardo, Monge, Feiticeiro
+
+Raças (12):
+Humano, Elfo, Anão, Orc, Meio-Elfo, Halfling, Tiefling, Drow, Gnomo, Draconato, Meio-Orc, Goblin
