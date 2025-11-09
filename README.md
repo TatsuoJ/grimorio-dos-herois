@@ -31,10 +31,11 @@ Aplicação web para criar, editar, visualizar e gerenciar personagens de RPG co
    **Backend:**cd backendnpm install*
    *Frontend:**cd ../frontendnpm install
 3. Execute a aplicação
-   **Terminal 1 - Backend:**cd backendnode index.js> Servidor rodando em http://localhost:3000
-   **Terminal 2 - Frontend:**cd frontendnpm start> Aplicação abrindo em http://localhost:3001
+   **Terminal 1 - Backend:**cd backendnode index.js> Servidor rodando em http://localhost:****
+   
+   **Terminal 2 - Frontend:**cd frontendnpm start> Aplicação abrindo em http://localhost:****
 
-4. Acesse no navegadorAbra: **http://localhost:3001**
+5. Acesse no navegadorAbra: **http://localhost:****
 
 🎮 Como Usar
 Criar personagem: Preencha o formulário e clique em "Registrar Personagem"
